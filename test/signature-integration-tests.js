@@ -28,7 +28,7 @@ module.exports = {
     verifySignature(test, xml, ["//*[local-name(.)='book']"])
   },
 
-/*
+
   "empty URI reference should consider the whole document": function(test) {    
 
     var sampleXml=["<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
@@ -57,7 +57,7 @@ module.exports = {
     test.done();
   },
 
-
+/*
   "windows store signature": function(test) {    
 
     var xml = fs.readFileSync('./test/static/windows_store_signature.xml', 'utf-8');        
