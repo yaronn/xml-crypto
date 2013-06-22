@@ -27,7 +27,7 @@ module.exports = {
 
     verifySignature(test, xml, ["//*[local-name(.)='book']"])
   },
-/*
+
   "windows store signature": function(test) {    
 
     var xml = fs.readFileSync('./test/static/windows_store_signature.xml', 'utf-8');        
@@ -43,7 +43,7 @@ module.exports = {
     test.equal(result, true);
     test.done();
   }
-*/
+
 }
 
 function verifySignature(test, xml, xpath) {  
